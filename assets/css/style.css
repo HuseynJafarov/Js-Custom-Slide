@@ -1,0 +1,88 @@
+#list-carousel .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#list-carousel .icons i {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 10px 10px 16px;
+}
+
+#list-carousel .icons .left {
+  color: #007bff;
+  position: absolute;
+  left: 280px;
+  top: -50px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+#list-carousel .icons .right {
+  color: #007bff;
+  position: absolute;
+  top: -50px;
+  left: 320px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+#list-carousel .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#list-carousel .cards .card-size0 {
+  height: 300px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+
+#list-carousel .cards .card-size1 {
+  height: 300px;
+  position: absolute;
+  top: 30px;
+  left: 300px;
+}
+
+#list-carousel .cards .card-size2 {
+  height: 300px;
+  position: absolute;
+  top: 30px;
+  left: 600px;
+}
+
+#list-carousel .cards .card-size3 {
+  height: 300px;
+  position: absolute;
+  top: 30px;
+  right: 132px;
+}
+
+#list-carousel .cards img {
+  height: 140px;
+}
+
+#list-carousel .active {
+  opacity: 1 !important;
+}
+/*# sourceMappingURL=style.css.map */

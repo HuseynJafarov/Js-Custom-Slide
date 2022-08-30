@@ -1,0 +1,75 @@
+#list-carousel{
+    .icons {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        
+        i {
+            font-size: 20px;
+            cursor: pointer;
+            padding: 10px 10px 10px 16px;
+
+        }
+
+
+        .left {
+            color: #007bff;
+            position: absolute;
+            left: 280px;
+            top: -50px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+
+        .right {
+            color: #007bff;
+            position: absolute;
+            top: -50px;
+            left: 320px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+
+        }
+
+    }
+    .cards{
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;        
+        .card-size0{
+            height: 300px;
+            position: absolute;
+            top: 30px;
+            left: 0px;
+        }  
+        .card-size1{
+            height: 300px;
+            position: absolute;
+            top: 30px;
+            left: 300px;
+
+        }
+        .card-size2{
+            height: 300px;
+            position: absolute;
+            top: 30px;
+            left: 600px;
+        }
+        .card-size3{
+            height: 300px;
+            position: absolute;
+            top: 30px;
+            right: 132px;
+        }
+        img{
+            height: 140px;
+        }
+    }
+    .active {
+        opacity: 1 !important;
+    }
+}
